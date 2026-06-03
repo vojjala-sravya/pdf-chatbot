@@ -9,7 +9,7 @@ from groq import Groq
 # CONFIG — paste your Groq API key here
 # Get it free at: https://console.groq.com
 # ─────────────────────────────────────────────
-GROQ_API_KEY = GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 # ─────────────────────────────────────────────
 # STEP 1: Extract text from PDF
